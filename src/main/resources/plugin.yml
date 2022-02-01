@@ -1,0 +1,20 @@
+name: CustomDeathScoreboard
+version: '${project.version}'
+main: me.corxl.customdeathscoreboard.CustomDeathScoreboard
+api-version: 1.18
+authors: [ Corxl ]
+depend: [ Essentials ]
+description: Custom Death Scoreboard that shows the player's display name rather than their playername
+
+commands:
+  scoreboard:
+    aliases: [sb]
+
+permissions:
+  scoreboard.toggle:
+    description: Allows users to use the /sc toggle command
+    default: true
+
+  scoreboard.set:
+    description: Allows users to use the /sc set command
+
